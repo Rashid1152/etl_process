@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.vscode/
+
+# Ignore environment files and folders
+*.csv
+.env
+venv/
+env/ 
