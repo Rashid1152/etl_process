@@ -1,4 +1,8 @@
-# Enhanced Seller Performance & Order Context ETL — Assignment Documentation
+# Enhanced Seller Performance & Order Context - Design Document
+
+This document provides the complete architectural and implementation strategy for building a data product using an ETL pipeline. It fulfills the technical assignment requirements related to Apache Airflow orchestration, PostgreSQL schema design, Docker-based deployment, Kubernetes orchestration, and a testing strategy.
+
+---
 
 ## Assumptions & Limitations
 - **Customer Location:** The customer zip code is available via the `olist_customers_dataset.csv` file and is used for accurate delivery geolocation and weather enrichment. This ensures weather data is based on the true delivery location, not the seller's location.
